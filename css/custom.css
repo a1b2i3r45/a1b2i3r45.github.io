@@ -18,6 +18,14 @@ footer {
 	position: relative;
 }
 
+a.navbar-brand img {
+	height: 35px;
+	width: 35px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+
+}
+
 #get-involved {
 	background-color: #f5f5f5;
 }
@@ -101,6 +109,16 @@ footer {
 	border-color: #e74c3c;
     width: 150px;
     margin-top: 15px;
+}
+
+#who-we-are .homepage img {
+    width: 165px;
+    height: 100px;
+}
+
+footer .container img {
+	height: 150px;
+	width: 150px;
 }
 
 /*Responsive resolutions */
