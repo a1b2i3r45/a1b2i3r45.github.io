@@ -140,9 +140,11 @@ footer .container img {
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
+
  }
 
- @media (max-width: 991px) {
+
+ @media (max-width: 765px) {
 	.jumbotron h1 {
 		font-size: 24px;
 	}
@@ -162,5 +164,9 @@ footer .container img {
 	}
 	footer img {
 		width: 80%;
+	}
+	.modal-content iframe {
+		width: 280px;
+		height: 157px;
 	}
  }
