@@ -73,6 +73,14 @@ a.navbar-brand img {
 	padding: 0 50px;
 }
 
+/* Centering the video is turned off due to mobile site  */
+.modal-dialog {
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    top: 50%;
+    margin-top: -176px;
+}
 .btn-lg {
 	font-size: 36px;
 }
@@ -165,8 +173,21 @@ footer .container img {
 	footer img {
 		width: 80%;
 	}
-	.modal-content iframe {
-		width: 280px;
-		height: 157px;
+
+	.modal-dialog {
+    position: relative;
+    margin-left: -150px;
+    margin-top: 200px;
+    
+}
+
+	.modal-content {
+		
+		width: 315px;
+		height: 195px;
 	}
+
+	.modal-content iframe {
+		width :280px;
+		height: 157px;
  }
