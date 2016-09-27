@@ -73,6 +73,11 @@ a.navbar-brand img {
 	padding: 0 50px;
 }
 
+.jumbotron .form-control {
+	height: 70px;
+	font-size: 36px;
+}
+
 /* Centering the video is turned off due to mobile site  */
 .modal-dialog {
     position: absolute;
