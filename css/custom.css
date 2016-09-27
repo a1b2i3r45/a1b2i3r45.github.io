@@ -74,8 +74,12 @@ a.navbar-brand img {
 }
 
 .jumbotron .form-control {
-	height: 70px;
-	font-size: 36px;
+	height: 49px;
+	font-size: 25px;
+}
+
+.jumbotron .btn-sm {
+	font-size: 25px;
 }
 
 /* Centering the video is turned off due to mobile site  */
